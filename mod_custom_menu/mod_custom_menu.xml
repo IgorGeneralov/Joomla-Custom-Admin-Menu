@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="5.0" client="administrator">
+	<name>Custom Admin Menu</name>
+	<author>Igor Generalov</author>
+	<creationDate>March 12th, 2025</creationDate>
+	<copyright>Copyright (c) 2005 - 2025 Igor Generalov. All rights reserved.</copyright>
+	<version>1.0</version>
+	<license>https://gnu.org/licenses/gpl.html</license>
+	<description>MOD_CUSTOM_MENU_XML_DESC</description>
+	<position>menu</position>
+	<files>
+		<filename module="mod_custom_menu">mod_custom_menu.php</filename>
+		<filename>menu_subform.xml</filename>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" description="MOD_CUSTOM_MENU_DESC">
+				<field
+					name="enable"
+					type="radio"
+					label="Enable / Desable"
+					default="1"
+					class="btn-group btn-group-yesno">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="titleDefault"
+					type="text"
+					label="MOD_CUSTOM_MENU_TITLE"
+					description="MOD_CUSTOM_MENU_TITLE_DESC"
+					default="Пункты меню"
+					class="w-25">
+				</field>					
+				<field
+					name="iconDefault"
+					type="text"
+				label="MOD_CUSTOM_MENU_ICON"
+					description="MOD_CUSTOM_MENU_ICON_DESC"
+					default="icon-list"
+					class="w-25">
+				</field>					
+				<field
+					name="accessDefault"
+					type="usergrouplist"
+					label="MOD_CUSTOM_MENU_ACCESS"
+					description="MOD_CUSTOM_MENU_ACCESS_DESC"
+					default="8"
+					multiple="false"
+					class="w-25">
+				</field>
+			</fieldset>
+				
+			<fieldset name="RowItems" description="MOD_CUSTOM_MENU_ITEMS_DESC">
+				<field
+					name="menu_items"
+					type="subform"
+					multiple="true"										
+					formsource="administrator/modules/mod_custom_menu/menu_subform.xml"
+					layout="joomla.form.field.subform.repeatable-table">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

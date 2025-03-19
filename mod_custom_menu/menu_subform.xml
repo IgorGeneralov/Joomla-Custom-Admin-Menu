@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="">
+	<field
+		name="title"
+		type="text"
+		label="MOD_CUSTOM_MENU_TITLE"
+		description="MOD_CUSTOM_MENU_TITLE_DESC"
+		default="New menu item"
+		class="">
+	</field>		
+	<field
+		name="icon"
+		type="text"
+		label="MOD_CUSTOM_MENU_ICON"
+		description="MOD_CUSTOM_MENU_ICON_DESC"
+		default="icon-mail"
+		class="">
+	</field>
+	<field
+		name="link"
+		type="text"
+		label="MOD_CUSTOM_MENU_LINK"
+		description="MOD_CUSTOM_MENU_LINK_DESC"
+		class="">
+	</field>		
+	<field
+		name="access"
+		type="usergrouplist"
+		label="MOD_CUSTOM_MENU_ACCESS"
+		description="MOD_CUSTOM_MENU_ACCESS_DESC"
+		default="8"
+		multiple="false">
+	</field>
+</form>
