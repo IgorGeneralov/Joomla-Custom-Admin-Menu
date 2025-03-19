@@ -17,4 +17,4 @@ Standard way (**Extensions / Install**)
 
 After installation, the Module will be located in Joomla along the path: **administrator / modules / mod_custom_menu**
 
-![Example of menu items](https://raw.githubusercontent.com/IgorGeneralov/Joomla-Custom-Admin-Menu/commit/img.png)
+![Example of menu items](https://raw.githubusercontent.com/IgorGeneralov/Joomla-Custom-Admin-Menu/sample_images/camenu-01.png)
