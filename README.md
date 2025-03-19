@@ -9,7 +9,7 @@ The module adds new menu items to the main site management menu. You can add any
 - **Access control** for their menu items (depending on the user group).
 
 ## Installation:
-Standard way (**Extensions / Install**)
+Standard way (**Extensions / Manage / Install**)
 1. Find the Admin Custom Menu module in **Extensions / Administrator Modules**
 2. Publish the Module
 3. Place the Module (in the module settings) in the menu position
