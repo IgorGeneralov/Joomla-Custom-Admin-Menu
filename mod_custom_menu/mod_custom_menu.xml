@@ -7,12 +7,16 @@
 	<version>1.0</version>
 	<license>https://gnu.org/licenses/gpl.html</license>
 	<description>MOD_CUSTOM_MENU_XML_DESC</description>
-	<position>menu</position>
+	<position>menu</position>	
 	<files>
 		<filename module="mod_custom_menu">mod_custom_menu.php</filename>
 		<filename>menu_subform.xml</filename>
 		<folder>language</folder>
 	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_custom_menu.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.mod_custom_menu.ini</language>
+	</languages>
 	<config>
 		<fields name="params">
 			<fieldset name="basic" description="MOD_CUSTOM_MENU_DESC">
