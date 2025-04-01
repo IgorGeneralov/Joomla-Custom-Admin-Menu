@@ -12,7 +12,7 @@ The module adds new menu items to the main site management menu. You can add any
 Standard way (**Extensions / Manage / Install**)
 1. Find the Admin Custom Menu module in **Extensions / Administrator Modules**
 2. Publish the Module
-3. Place the Module (in the module settings) in the menu position
+3. Place the Module (in the module settings) in the **menu** position
 4. Add your menu items in the tab
 
 After installation, the Module will be located in Joomla along the path: 
