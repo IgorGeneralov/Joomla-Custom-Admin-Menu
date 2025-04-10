@@ -8,7 +8,7 @@ The module adds new menu items to the main site management menu. You can add any
 - **Link**
 - **Access control** for their menu items (depending on the user group).
 
-https://github.com/IgorGeneralov/Joomla-Custom-Admin-Menu/blob/f54f83a6d7d2a24080d660362bb89b4a0af0651c/sample-images/camenu-01.png
+![Add menu](https://github.com/IgorGeneralov/Joomla-Custom-Admin-Menu/blob/f54f83a6d7d2a24080d660362bb89b4a0af0651c/sample-images/camenu-02.png)
 
 ## Installation:
 Standard way (**Extensions / Manage / Install**)
