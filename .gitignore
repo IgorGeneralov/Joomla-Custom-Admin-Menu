@@ -1,3 +1,11 @@
-# Ignore Sample PNG file #
 ###################
 sample.png
+LICENSE
+###################
+*.tar
+*.zip
+*.gzip
+*.gz
+*.md
+.vscode
+.DS_Store
