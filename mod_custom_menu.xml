@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="5.0" client="administrator">
-	<name>Custom Admin Menu</name>
+	<name>mod_custom_menu</name>
 	<author>Igor Generalov</author>
 	<creationDate>March 12th, 2025</creationDate>
 	<copyright>Copyright (c) 2005 - 2025 Igor Generalov. All rights reserved.</copyright>
